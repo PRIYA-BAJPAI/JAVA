@@ -12,6 +12,10 @@ public static void main(String[] args){
             }
         }
     }
+    System.out.println("number of vowels are ");
     System.out.println(vowel);
+    System.out.println("number of consonents are ");
+    System.out.println(s.length()-vowel);
+
 }
 }
