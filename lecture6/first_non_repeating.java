@@ -13,7 +13,8 @@ public class first_non_repeating {
         }
 
     }
-    System.out.println(a.charAt(i));
+    char  b= a.charAt(i);
+    System.out.println(b);
     
     }
     public static void main(String[] args) {
