@@ -1,4 +1,6 @@
 //print first char that occured once
+package lecture11;
+
 import java.util.*;
 public class char_hashmap {
     public static void main(String[] args) {

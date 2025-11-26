@@ -1,3 +1,5 @@
+package lecture11;
+
 import java.util.*;
 
 public class freq_count {
