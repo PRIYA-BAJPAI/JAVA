@@ -9,7 +9,7 @@ public class arraylist {
         list.add(5);
         list.add(6);
         list.add(7);
-        Iterator<Integer>i=list.iterator();
+        Iterator<Integer>i=list.iterator(); //iterator can move only forward
         while(i.hasNext()){
             System.out.println(i.next());
             if(i.next()==6){
