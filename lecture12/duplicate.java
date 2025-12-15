@@ -6,14 +6,15 @@ public class duplicate {
         //int i=0;
         HashSet<Integer>set=new HashSet<>();  //hashset do not contain duplicate elements
         for(int i :arr){
-           if(set.contains(i)){
-            System.out.println(true);
+           if(!set.contains(i)){
+            System.out.println(false);
+            break;
            }
            set.add(i);
-            
+            System.out.println(true);
            
         }
-        System.out.println(false);
+        //System.out.println(false);
         
     }
 }
